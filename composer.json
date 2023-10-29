@@ -1,0 +1,19 @@
+{
+    "name": "hcodebr/ecommerce",
+    "authors": [
+        {
+            "name": "Hcode Treinamentos",
+            "email": "suporte@hcode.com.br"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer": "^6.0",
+    	"slim/slim": "^3.12",
+    	"rain/raintpl":"3.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "vendor\\hcodebr\\php-classes\\src"
+        }
+    }
+}
