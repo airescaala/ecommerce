@@ -10,6 +10,6 @@ return array(
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
+    'Hcode\\' => array($vendorDir . '/hcodebr/php-classes/src'),
     'FastRoute\\' => array($vendorDir . '/nikic/fast-route/src'),
-    '' => array($vendorDir . '/hcodebr/php-classes/src'),
 );
