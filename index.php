@@ -1,7 +1,6 @@
 <?php 
 
 require_once("vendor/autoload.php");
-use Hcode\Page;
 
 $config = ['settings' => ['displayErrorDetails' => true]];
 $app = new \Slim\App($config);
@@ -13,12 +12,14 @@ $app->get('/', function($request, $reponse) {
 	$results = $sql->select("SELECT * FROM tb_users");
 	echo json_encode($results);
 	*/
-	$page = new Page();
+	//$page = new Page();
+	//$page->setTpl("index");
 
+	$page = new Hcode\Page();
+	$page->setTpl("index");
 
 });
 
 $app->run();
 
  ?>
- 
